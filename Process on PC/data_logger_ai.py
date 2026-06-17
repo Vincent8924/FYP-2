@@ -20,7 +20,7 @@ c.execute('''CREATE TABLE IF NOT EXISTS logs_ultimate
 conn.commit()
 
 # Ensure this matches your Raspberry Pi's actual IP address!
-RASPBERRY_PI_IP = "192.168.137.133" 
+RASPBERRY_PI_IP = "172.27.176.176" 
 
 def on_message(client, userdata, msg):
     try:

@@ -16,7 +16,7 @@ import time
 # --- UI Configuration ---
 st.set_page_config(page_title="AI Maintenance OS", layout="wide", page_icon="🏭")
 st.title("🏭 Edge AI Predictive Maintenance Dashboard")
-st.markdown("**Core Architecture: Lite-Hybrid-AE on Raspberry Pi 4**")
+st.markdown("**Core Architecture: Lite-Hybrid-AE on Raspberry Pi 5**")
 
 # =========================================================================
 # DATABASE CONNECTION & DATA FETCHING
@@ -100,7 +100,6 @@ if not df.empty:
         hide_index=True
     )
     
-    # 💡 The Download Button is now safe and clickable!
     csv = display_df.to_csv(index=False).encode('utf-8')
     st.download_button(
         label="📥 Download History as CSV",
