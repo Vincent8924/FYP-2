@@ -61,5 +61,7 @@ The core of this system utilizes a **Lite-Hybrid-AE (1D-CNN + LSTM Autoencoder)*
 
 ### 5. Streamlit Dashboard
 1. Launch the interactive Human-Computer Interaction (HCI) UI:
+    ```bash 
     streamlit run app.py
+    ```
 2. The dashboard will track live vibrations, MSE vs. threshold limits, and hardware thermals locally.
