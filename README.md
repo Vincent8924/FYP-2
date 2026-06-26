@@ -55,11 +55,11 @@ The core of this system utilizes a **Lite-Hybrid-AE (1D-CNN + LSTM Autoencoder)*
     python data_logger.py
 
 ### 4. Sensor Node (ESP32)
-    1. Open ESP32_Sender.ino in the Arduino IDE.
-    2. Update the ssid, password, and mqtt_server variables with your local network credentials.
-    3.Flash the firmware to the ESP32 board.
+1. Open ESP32_Sender.ino in the Arduino IDE.
+2. Update the ssid, password, and mqtt_server variables with your local network credentials.
+3. Flash the firmware to the ESP32 board.
 
 ### 5. Streamlit Dashboard
-    1. Launch the interactive Human-Computer Interaction (HCI) UI:
-        streamlit run app.py
-    2. The dashboard will track live vibrations, MSE vs. threshold limits, and hardware thermals locally.
+1. Launch the interactive Human-Computer Interaction (HCI) UI:
+    streamlit run app.py
+2. The dashboard will track live vibrations, MSE vs. threshold limits, and hardware thermals locally.
